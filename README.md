@@ -6,3 +6,6 @@ npm install --save-dev prettier prettier-plugin-solidity
 
 # run prettier
 npx prettier --write 'contracts/**/*.sol'
+
+truffle compoile -all
+truffle migarte --netwrok roster -reset
