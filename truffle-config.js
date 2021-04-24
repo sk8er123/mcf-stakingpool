@@ -14,7 +14,7 @@ module.exports = {
         provider: function() {
           return new HDWalletProvider(MNEMONIC, API_URL)
         },
-        network_id: 3,
+        network_id: "*",
         gas: 4000000 //4M is the max
     }    
   },

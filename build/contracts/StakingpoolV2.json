@@ -13891,7 +13891,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.0",
-  "updatedAt": "2021-04-24T17:26:08.517Z",
+  "updatedAt": "2021-04-24T17:41:53.417Z",
   "devdoc": {
     "events": {
       "NotifyStaked(address,uint256)": {
