@@ -9,3 +9,6 @@ npx prettier --write 'contracts/**/*.sol'
 
 truffle compoile -all
 truffle migarte --netwrok roster -reset
+
+# hdwallet-provider 1.0.40
+@truffle/hdwallet-provider@1.0.40

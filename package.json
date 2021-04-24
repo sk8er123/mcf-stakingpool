@@ -2,7 +2,9 @@
   "dependencies": {
     "@openzeppelin/contracts": "^4.0.0",
     "@openzeppelin/contracts-upgradeable": "^4.0.0",
-    "bignumber.js": "^9.0.1"
+    "@truffle/hdwallet-provider": "1.0.40",
+    "bignumber.js": "^9.0.1",
+    "dotenv": "^8.2.0"
   },
   "devDependencies": {
     "@openzeppelin/truffle-upgrades": "^1.5.2",

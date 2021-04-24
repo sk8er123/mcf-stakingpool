@@ -1,3 +1,7 @@
+require('dotenv').config();
+const HDWalletProvider = require("@truffle/hdwallet-provider");
+const { API_URL, MNEMONIC } = process.env;
+
 module.exports = {
   networks: {
     development: {
@@ -6,6 +10,13 @@ module.exports = {
       network_id: "*", // Match any network id
       gas: 5000000
     },
+    rinkeyby: {
+        provider: function() {
+          return new HDWalletProvider(MNEMONIC, API_URL)
+        },
+        network_id: 3,
+        gas: 4000000 //4M is the max
+    }    
   },
   compilers: {
     solc: {
