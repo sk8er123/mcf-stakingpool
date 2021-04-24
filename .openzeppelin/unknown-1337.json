@@ -1,0 +1,205 @@
+{
+  "manifestVersion": "3.1",
+  "impls": {
+    "6b523269523d5252055369d7f62973f8e5ae1400ab1db6c9f5f663816621a453": {
+      "address": "0x83f9a865b8209A13b442Cfe212dD63d59714d552",
+      "txHash": "0x37af89277031912e8ef58c5b93ba576e76bc3a9cc8a3ac98068d33736a8daee6",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:25"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:30"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:31"
+          },
+          {
+            "contract": "ReentrancyGuardUpgradeable",
+            "label": "_status",
+            "type": "t_uint256",
+            "src": "../@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol:37"
+          },
+          {
+            "contract": "ReentrancyGuardUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol:67"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "_paused",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:28"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:96"
+          },
+          {
+            "contract": "StakingpoolV1",
+            "label": "StakePeriod",
+            "type": "t_uint256",
+            "src": "StakingpoolV1.sol:20"
+          },
+          {
+            "contract": "StakingpoolV1",
+            "label": "owner",
+            "type": "t_address",
+            "src": "StakingpoolV1.sol:22"
+          },
+          {
+            "contract": "StakingpoolV1",
+            "label": "currentstakeyields",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "StakingpoolV1.sol:29"
+          },
+          {
+            "contract": "StakingpoolV1",
+            "label": "stakedBalances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "StakingpoolV1.sol:32"
+          },
+          {
+            "contract": "StakingpoolV1",
+            "label": "stakedShares",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "StakingpoolV1.sol:35"
+          },
+          {
+            "contract": "StakingpoolV1",
+            "label": "totalStakedMcH",
+            "type": "t_uint256",
+            "src": "StakingpoolV1.sol:38"
+          },
+          {
+            "contract": "StakingpoolV1",
+            "label": "MCH",
+            "type": "t_uint256",
+            "src": "StakingpoolV1.sol:41"
+          },
+          {
+            "contract": "StakingpoolV1",
+            "label": "MCF",
+            "type": "t_uint256",
+            "src": "StakingpoolV1.sol:44"
+          },
+          {
+            "contract": "StakingpoolV1",
+            "label": "totalStakedamount",
+            "type": "t_uint256",
+            "src": "StakingpoolV1.sol:47"
+          },
+          {
+            "contract": "StakingpoolV1",
+            "label": "DROI",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "StakingpoolV1.sol:50"
+          },
+          {
+            "contract": "StakingpoolV1",
+            "label": "MROI",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "StakingpoolV1.sol:53"
+          },
+          {
+            "contract": "StakingpoolV1",
+            "label": "ROI",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "StakingpoolV1.sol:56"
+          },
+          {
+            "contract": "StakingpoolV1",
+            "label": "claimable",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "StakingpoolV1.sol:59"
+          },
+          {
+            "contract": "StakingpoolV1",
+            "label": "vested",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "StakingpoolV1.sol:62"
+          },
+          {
+            "contract": "StakingpoolV1",
+            "label": "users",
+            "type": "t_array(t_address)dyn_storage",
+            "src": "StakingpoolV1.sol:66"
+          },
+          {
+            "contract": "StakingpoolV1",
+            "label": "userIndex",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "StakingpoolV1.sol:69"
+          },
+          {
+            "contract": "StakingpoolV1",
+            "label": "creationTime",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "StakingpoolV1.sol:72"
+          },
+          {
+            "contract": "StakingpoolV1",
+            "label": "isFinalized",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "StakingpoolV1.sol:75"
+          },
+          {
+            "contract": "StakingpoolV1",
+            "label": "Staked",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "StakingpoolV1.sol:78"
+          },
+          {
+            "contract": "StakingpoolV1",
+            "label": "isStaking",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "StakingpoolV1.sol:81"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    }
+  },
+  "admin": {
+    "address": "0xBfCdd6a2DE51CD4a2fd3130335023C9E399685b9",
+    "txHash": "0x9386a9bd20591bfca2fbf642f1a6bce0ba92dc3802bd32245bd9d46285369ea5"
+  }
+}

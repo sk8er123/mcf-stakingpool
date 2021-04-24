@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.0.0",
+    "@openzeppelin/contracts-upgradeable": "^4.0.0",
+    "bignumber.js": "^9.0.1"
+  },
+  "devDependencies": {
+    "@openzeppelin/truffle-upgrades": "^1.5.2",
+    "prettier": "^2.2.1",
+    "prettier-plugin-solidity": "*"
+  }
+}
