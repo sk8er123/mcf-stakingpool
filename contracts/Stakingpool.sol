@@ -13,7 +13,6 @@ import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
  * Open Zeppelin Pausable  */
 
 contract Stakingpool is Initializable, ContextUpgradeable, ReentrancyGuardUpgradeable, PausableUpgradeable, OwnableUpgradeable {
-
     using SafeMathUpgradeable for uint256;
 
     uint256 StakePeriod;
@@ -104,8 +103,7 @@ contract Stakingpool is Initializable, ContextUpgradeable, ReentrancyGuardUpgrad
     }
 
     // @dev contract Initializable
-
-    function Initialize(address _MCHToken, address _MCFToken) public initializer {
+    function initialize(address _MCHToken, address _MCFToken) public {
         MCHToken = IERC20Upgradeable(_MCHToken);
         MCFToken = IERC20Upgradeable(_MCFToken);
         StakePeriod = 11 days;

@@ -13,7 +13,6 @@ import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
  * Open Zeppelin Pausable  */
 
 contract StakingpoolV2 is Initializable, ContextUpgradeable, ReentrancyGuardUpgradeable, PausableUpgradeable, OwnableUpgradeable {
-
     using SafeMathUpgradeable for uint256;
 
     uint256 StakePeriod;
